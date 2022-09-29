@@ -3,4 +3,4 @@ This web-app helps to check the meaning of the emoji like if you want to know me
 
 
 
-use it- https://6yygcm.csb.app/
+use it- https://tehkum.github.io/csb-q87d03/
