@@ -7,12 +7,17 @@ export default function App() {
     "😔": "sad",
     "😂": "laughing",
     "😡": "angry",
-    "❤️": "love"
+    "❤️": "love",
+    "😁": "blushing",
+    "😪": "sleepy",
+    "🤤": "looks tasty",
+    "😫": "annoyed",
+    "🤩": "seems pretty"
   };
 
   const [emojiInput, setEmojiInput] = useState(" ");
 
-  function emojiEnterpreter() {
+  function emojiEnterpreter(event) {
     setEmojiInput(emojiDictionary[event.target.value]);
     if (emojiDictionary[event.target.value] === undefined) {
       setEmojiInput("not in our database");
@@ -41,3 +46,4 @@ export default function App() {
     </div>
   );
 }
+
